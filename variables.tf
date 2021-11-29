@@ -94,12 +94,6 @@ variable "tfc_agent_single" {
   EOF
 }
 
-variable "tfc_agent_disable_update" {
-  type        = bool
-  default     = false
-  description = "Disable automatic core updates."
-}
-
 variable "tfc_address" {
   type        = string
   default     = "https://app.terraform.io"
